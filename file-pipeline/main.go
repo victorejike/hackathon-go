@@ -37,7 +37,7 @@ func Capitalize(s string) string {
 }
 
 func main() {
-	s := "      upper   sentinel online  "
+	s := "      Is  It Okay       sentinel    of online  "
 
 	fmt.Println(Capitalize(s))
 }
