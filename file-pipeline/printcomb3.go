@@ -29,7 +29,7 @@ func PrintCombN(n int) {
 
 		for i := start; i < 10; i++ {
 			comb = append(comb, i)
-			generate(i + 1)
+			generate(i + 2)
 			comb = comb[:len(comb)-1]
 		}
 	}
