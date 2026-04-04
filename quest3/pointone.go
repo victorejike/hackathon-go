@@ -13,7 +13,7 @@ func PointOne(n *int) {
 }
 
 func main() {
-	n := 0
-	fmt.Print(&n)
-	fmt.Println(n)
+	val := 0
+	PointOne(&val)
+	fmt.Println(val)
 }
