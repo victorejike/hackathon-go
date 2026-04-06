@@ -15,15 +15,13 @@ func DivMod(a int, b int, div *int, mod *int) {
   if b == 0 {
 	return
   }
-
   *div =  a/b
-  *mod = a % b
-
+  *mod =  a %  b
    
 }
 
 func main() {
-	a := 13
+	a := 17
 	b := 2
 	var div int
 	var mod int
