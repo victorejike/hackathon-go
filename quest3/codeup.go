@@ -6,18 +6,17 @@ import(
 )
 
 func Capitalized(word []string)[]string{
-	 var result []string
-	 for i := 0; i < len(word); i++{
-		if word[i] == "(UP)" {
+	 
+	var result []string
+	for i := 0; i < len(word); i++{
+		if word[i] == "(up)" {
 			if len(result) > 0 {
 				result[len(result)-1] = strings.ToUpper(result[len(result)-1])
 			}
-
 		} else {
-			result = append(result, word[i])
+			result = append()
 		}
-	 }
-	 return result
+	}
 }
 
 func main(){
