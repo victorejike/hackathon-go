@@ -22,6 +22,12 @@ func main(){
 		return
 	 }
 
+	 // this where i decleear variable in the code that control the code 
+
+	 content := string(input)
+	 words := strings.Fields(content)
+	 var result []string
+
 	 err = ioutil.WriteFile(outputFile,inp, 0644)
 	 if err != nil {
 		fmt.Printf("Error finding this file : %v\n", err)
